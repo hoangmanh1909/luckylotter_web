@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+  body {
+    margin: auto;
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    margin: auto !important;
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: auto !important;
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    margin: auto !important;
+    max-width: 450px;
+  }
+}
+@font-face{
+  font-family: 'HelveticaNeue';
+  src: url("./../public/fonts/HelveticaNeue.otf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+:global(#root) {
+  background-image: url("../src/assets/background.jpg");
+  background-size: 100% 100%;
+  height: 100%;
+  font-family: 'HelveticaNeue'
+}
+
+.spin {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.spe {
+  width: 60px;
+  height: 60px;
+}
